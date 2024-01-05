@@ -13,5 +13,6 @@ namespace NetBootcampProject.Models.ORM
         public DbSet<Client> Clients { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }
