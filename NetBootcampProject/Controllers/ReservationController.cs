@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NetBootcampProject.Models.ORM;
-using System.Data.Entity;
+
 
 namespace NetBootcampProject.Controllers
 {

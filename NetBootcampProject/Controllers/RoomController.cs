@@ -29,7 +29,7 @@ namespace NetBootcampProject.Controllers
             var room = _context.Rooms.FirstOrDefault(x => x.Id == id);
             if (room == null) { return NotFound(); }
 
-            else return Ok(room);
+            return Ok(room);
         }
 
         [HttpPost]
@@ -76,4 +76,4 @@ namespace NetBootcampProject.Controllers
             }
         }
     }
-}
+
